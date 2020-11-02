@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Test</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./script.js" async></script>
+
+  <style>
+      
+  .get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+
+  }
+  .get-in-touch .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+      color: #5543ca;
+      background: #5543ca;
+      background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+      background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+
+  .contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+  }
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+  .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+  }
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+    background-image: linear-gradient(125deg,#a72879,#064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width:200px;
+    cursor: pointer;
+  }
+  </style>
+</head>
+<body>
+
+<section class="get-in-touch">
+  <h1 class="title">Get in touch</h1>
+  <form class="contact-form row" onsubmit="submitHandler(event)" enctype="multipart/form-data">
+     <div class="form-field col-lg-6">
+        <input id="name" class="input-text js-input" type="text" required>
+        <label class="label" for="name">First Name</label>
+     </div>
+     <div class="form-field col-lg-6 ">
+        <input id="lastname" class="input-text js-input" type="text" required>
+        <label class="label" for="lastname">Last Name</label>
+     </div>
+     <div class="form-field col-lg-6 ">
+        <input id="email" class="input-text js-input" type="email" required>
+        <label class="label" for="email">Email</label>
+     </div>
+      <div class="form-field col-lg-6 ">
+        <input id="phone" class="input-text js-input" type="text" required>
+        <label class="label" for="phone">Contact Number</label>
+     </div> 
+     <div class="form-field col-lg-12 ">
+      <input id="dob" class="input-text js-input" type="text" required>
+      <label class="label" for="dob">Date of Birth</label>
+     </div> 
+     <div class="form-field col-lg-12">
+       <p style="font-weight: 400;font-size: 18px;color: #5543ca;padding: 5px;">Interested in</p>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="Work in Abroad" checked>
+        <label class="form-check-label" for="exampleRadios1">
+          Work in Abroad
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="Work in India">
+        <label class="form-check-label" for="exampleRadios2">
+          Work in India
+        </label>
+      </div>
+     </div>
+     <div class="form-field col-lg-12">
+      <input id="edu" class="input-text js-input" type="text" required>
+      <label class="label" for="edu">Educational Qualification</label>
+     </div>
+     <div class="form-field col-lg-12">
+      <p style="font-weight: 400;font-size: 18px;color: #5543ca;padding: 5px;">Experience</p>
+       <div class="row">
+        <div class="form-field col-lg-3">
+          <input id="com" class="input-text js-input" type="text" required>
+          <label class="label" for="com">Company</label>
+         </div>
+         <div class="form-field col-lg-3">
+          <input id="des" class="input-text js-input" type="text" required>
+          <label class="label" for="des">Designation</label>
+         </div>
+         <div class="form-field col-lg-3">
+          <input id="fro" class="input-text js-input" type="text" required>
+          <label class="label" for="fro">From</label>
+         </div>
+         <div class="form-field col-lg-3">
+          <input id="to" class="input-text js-input" type="text" required>
+          <label class="label" for="to">To</label>
+         </div>
+       </div>
+     </div>
+     <div class="form-field col-lg-12 ">
+      <input id="sal1" class="input-text js-input" type="text" required>
+      <label class="label" for="sal1">Last Month Salary(INR)</label>
+     </div>
+     <div class="form-field col-lg-12 ">
+      <input id="sal2" class="input-text js-input" type="text" required>
+      <label class="label" for="sal2">Expected Monthly Salary(INR)</label>
+     </div>
+     <div class="form-field col-lg-12">
+      <input id="jon" class="input-text js-input" type="text" required>
+      <label class="label" for="jon">Possible Month of Joining</label>
+     </div>
+     <div class="form-field col-lg-12">
+      <input id="inf" class="input-text js-input" type="text">
+      <label class="label" for="inf">Additional Information You Want To Include</label>
+     </div>
+     
+   <div class="form-field col-lg-6">
+      <div>
+        <div class="form-group">
+          <label style="font-weight: 400;font-size: 18px;color: #5543ca;padding: 5px;" for="resume">Upload Your Resume</label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1" accept=".pdf,.doc">
+        </div>
+      </div>
+    </div>
+    <div class="form-field col-lg-6">
+    <div>
+      <div class="form-group">
+        <label style="font-weight: 400;font-size: 18px;color: #5543ca;padding: 5px;" for="photo">Upload Your Photo</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile2">
+      </div>
+    </div>
+   </div>
+   <div class="form-field col-lg-12">
+    <input class="submit-btn" type="submit" value="Submit">
+ </div>
+  </form>
+</section>
+</body>
+</html>

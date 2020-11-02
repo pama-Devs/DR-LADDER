@@ -1,0 +1,226 @@
+<mjml>
+  <mj-head>
+  	<mj-attributes>
+    	<mj-all padding="0"></mj-all>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section padding-top="30px">
+      <mj-column>
+				<mj-text font-weight="bold" font-size="19px" align="center">
+        	<h2>CONTACT FORM</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		FIRST NAME
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		Mohammed
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		LAST NAME
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		Minhaajudeen T
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		EMAIL
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		minazuddin23@gmail.com
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		CONTACT
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		123456790
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		DOB
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		23-9-1996
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		INTERESTED IN
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		Work In India
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		QUALIFICATION
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		BE/ECE
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		COMPANY
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		Wikiance
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		DESIGNATION
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		Email Developer
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		FROM
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		jun 2020
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		TO
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		oct 2020
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		LAST MONTH SALARY (INR)
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		1000 INR
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		EXPECTED MONTHLY SALARY (INR)
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		15000 INR
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		POSSIBLE MONTH OF JOINING
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		NOV
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding-top="30px">
+      <mj-group>
+      	<mj-column>
+					<mj-text font-weight="bold" font-size="19px" color="blue">
+        		ADDITIONAL INFO
+        	</mj-text>
+      	</mj-column>
+        <mj-column>
+					<mj-text font-size="19px">
+        		NIL
+        	</mj-text>
+      	</mj-column>
+      </mj-group>
+    </mj-section>
+  </mj-body>
+</mjml>
