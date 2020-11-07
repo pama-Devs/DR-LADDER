@@ -41,7 +41,7 @@ const submitHandler = (e) => {
     }
     
       //fetch api with post method---form submission
-      fetch("http://localhost:5000/contact-us", {
+      fetch("/contact-us", {
           method: "POST",
           headers: {
           },
@@ -66,7 +66,7 @@ const hireFormSubmit = (e) => {
     for(const [key, value] of Object.entries(form)) {
         formData.append(key, value);
     }
-    fetch('http://localhost:5000/hire-form', {
+    fetch('/hire-form', {
         method: 'POST',
         headers: {
         },
@@ -108,7 +108,7 @@ const joinUsFormSubmit = (e) => {
     }
 
     //fetch api
-    fetch('http://localhost:5000/join-us', {
+    fetch('/join-us', {
         method: 'POST',
         headers: {
 
